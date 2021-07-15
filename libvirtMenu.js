@@ -27,28 +27,6 @@ const SETTINGS_ICON_THEME_NONE = 0;
 const SETTINGS_ICON_THEME_BRIGHT = 1;
 const SETTINGS_ICON_THEME_DARK = 2;
 
-function convertColor(hex){
-  let chunks = [];
-  let tmp, i;
-  hex = hex.substr(1);
-
-  if (hex.length === 3) {
-    tmp = hex.split("");
-    for (i=0; i < 3; i++){
-      chunks.push(parseInt(tmp[i] + "" + tmp[i], 16));
-    }
-  } else if (hex.length === 6){
-    tmp = hex.match(/.{2}/g);
-    for (i=0; i < 3; i++){
-      chunks.push(parseInt(tmp[i],16));
-    }
-  } else {
-    return [false, null];
-  }
-
-  return [true, chunks];
-}
-
 class LibvirtMenuClass extends PanelMenu.Button {
 
   _vmMenuItemText(vm) {
@@ -237,7 +215,7 @@ class LibvirtMenuClass extends PanelMenu.Button {
 
   _getIndicatorActivitytEffect() {
     if (!this._indicatorActivitytEffect) {
-      const [ok, colorArray] = convertColor(this._activityHighlightColor);
+      const [ok, colorArray] = Util.convertColor(this._activityHighlightColor);
 
       log(colorArray);
 
