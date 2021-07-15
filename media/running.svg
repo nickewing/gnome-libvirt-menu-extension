@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="42" height="42" viewBox="0 0 21 21" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 10.5 10)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-12, -12)" d="M 0 0 h 24 v 24 H 0 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 0.5)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-12, -12.5)" d="M 4 16 h 16 V 5 H 4 v 11 z m 9 2 v 2 h 4 v 2 H 7 v -2 h 4 v -2 H 2.992 A 0.998 0.998 0 0 1 2 16.993 V 4.007 C 2 3.451 2.455 3 2.992 3 h 18.016 c 0.548 0 0.992 0.449 0.992 1.007 v 12.986 c 0 0.556 -0.455 1.007 -0.992 1.007 H 13 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+<g transform="matrix(0.68 0 0 0.68 10.68 8.18)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-12, -12)" d="M 0 0 h 24 v 24 H 0 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.75 0)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-12.75, -12)" d="M 7.752 5.439 l 10.508 6.13 a 0.5 0.5 0 0 1 0 0.863 l -10.508 6.13 A 0.5 0.5 0 0 1 7 18.128 V 5.871 a 0.5 0.5 0 0 1 0.752 -0.432 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

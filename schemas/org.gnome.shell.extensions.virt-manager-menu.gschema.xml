@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="org.gnome.shell.extensions.libvirt-menu.indicator-position">
+    <value value="0" nick="center"/>
+    <value value="1" nick="right"/>
+    <value value="2" nick="left"/>
+  </enum>
+  <enum id="org.gnome.shell.extensions.libvirt-menu.icon-theme">
+    <value value="0" nick="none"/>
+    <value value="1" nick="bright"/>
+    <value value="2" nick="dark"/>
+  </enum>
+  <schema id="org.gnome.shell.extensions.libvirt-menu" path="/org/gnome/shell/extensions/libvirt-menu/">
+
+    <!-- See also: https://developer.gnome.org/glib/stable/gvariant-format-strings.html -->
+
+    <key name="virsh-command" type="s">
+      <default>"sudo virsh"</default>
+      <summary>virsh command</summary>
+    </key>
+    <key name="virt-manager-enabled" type="b">
+      <default>true</default>
+      <summary>Enable virt-manager integration</summary>
+    </key>
+    <key name="virt-manager-command" type="s">
+      <default>"virt-manager --connect qemu:///system"</default>
+      <summary>virt-manager command</summary>
+    </key>
+    <key name="icon-theme" enum="org.gnome.shell.extensions.libvirt-menu.icon-theme">
+      <default>"bright"</default>
+      <summary>Icon theme</summary>
+    </key>
+    <key name="activity-highlight-color" type="s">
+      <default>"#009900"</default>
+      <summary>Main icon activity highlight color</summary>
+    </key>
+  </schema>
+</schemalist>
