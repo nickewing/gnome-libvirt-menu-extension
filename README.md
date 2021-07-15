@@ -12,12 +12,18 @@ following to run specific commands without a password using sudo:
 
 ## Manual installation
 
+Run the following commands:
+
   ```
   git clone https://github.com/nickewing/gnome-libvirt-menu-extension
   cd gnome-libvirt-menu-extension
   ./release.sh
   gnome-extensions install libvirt-menu@extensions.gnome.nickewing.net.zip
-  # Log out and back in, or restart Gnome Shell
+  ```
+
+Log out and back in, or restart Gnome Shell (Alt + F2, then enter "r" in the prompt).
+
+  ```
   gnome-extensions enable libvirt-menu@extensions.gnome.nickewing.net
   ```
 
