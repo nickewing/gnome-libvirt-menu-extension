@@ -2,5 +2,7 @@
     "name": "Libvirt Menu",
     "uuid": "libvirt-menu@extensions.gnome.nickewing.net",
     "shell-version": ["40"],
-    "description": "Basic Libvirt VM management via a menubar menu extension."
+    "settings-schema": "org.gnome.shell.extensions.libvirt-menu",
+    "description": "Basic Libvirt VM management via a menubar menu extension.",
+    "version": 1
 }
