@@ -58,42 +58,44 @@ Currently this extension's settings can only be set via the terminal using `gset
     set org.gnome.shell.extensions.libvirt-menu icon-theme "dark"
   ```
 
-Note that `icon-theme` is the name of a setting listed below and `"dark"` is the value for that setting.
+Note that in this command, `icon-theme` is the name of a setting listed below and `"dark"` is the value for that setting.
 
 After updating a setting, you must restart gnome-shell for the setting to take effect.
 
-### icon-theme
+### `icon-theme`
 
 Sets whether icons shown in menu are light, dark, or disabled.
 
 Default value: `"bright"`
+
 Available values: `"none"`, `"bright"`, `"dark"`
 
-### activity-highlight-color
+### `activity-highlight-color`
 
 Sets the highlight color of the main icon when any VM is running.  Set to `""` to disable.
 
 Default value: `"#009900"`
 
-### virsh-command
+### `virsh-command`
 
 Sets the base command used by the extension to interface with libvirt.  Note that additional command arguments will be
 appended to this value.
 
 Default value: `"sudo virsh"`
 
-### virt-manager-command
+### `virt-manager-command`
 
 Sets the base command used by the extension to interface with Virtual Machine Manager.  Note that additional command
 arguments will be appended to this value.
 
 Default value: `"virt-manager --connect qemu:///system"`
 
-### virt-manager-enabled
+### `virt-manager-enabled`
 
 Enables or disables Virtual Machine Manager menu options
 
 Default value: `true`
+
 Available values: `true`, `false`
 
 ## Credits
